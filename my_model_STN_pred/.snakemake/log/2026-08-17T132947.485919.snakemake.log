@@ -1,0 +1,371 @@
+Assuming unrestricted shared filesystem usage.
+None
+host: UWO-CBS-Heavy12
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however important for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Using shell: /usr/bin/bash
+Provided cores: 12
+Rules claiming more threads will be scaled down.
+Job stats:
+job           count
+----------  -------
+all               1
+stereotaxy       26
+total            27
+
+Select jobs to execute...
+Execute 12 jobs...
+[Mon Aug 17 13:29:50 2026]
+localrule stereotaxy:
+    input: sub-P328/ses-preop/afids-cnn/sub-P328_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P328/ses-preop/stereotaxy/sub-P328_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P328/ses-preop/stereotaxy/sub-P328_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P328/ses-preop/ACPCtransforms/sub-P328_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    jobid: 149
+    reason: Missing output files: sub-P328/ses-preop/stereotaxy/sub-P328_ses-preop_acq-ax_run-01_desc-STN_native.fcsv
+    wildcards: subject=P328, session=preop, acq=ax, run=01
+    resources: tmpdir=/localscratch/tmp
+[Mon Aug 17 13:29:50 2026]
+localrule stereotaxy:
+    input: sub-P256/ses-preop/afids-cnn/sub-P256_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P256/ses-preop/stereotaxy/sub-P256_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P256/ses-preop/stereotaxy/sub-P256_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P256/ses-preop/ACPCtransforms/sub-P256_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    jobid: 142
+    reason: Missing output files: sub-P256/ses-preop/stereotaxy/sub-P256_ses-preop_acq-ax_run-01_desc-STN_native.fcsv
+    wildcards: subject=P256, session=preop, acq=ax, run=01
+    resources: tmpdir=/localscratch/tmp
+[Mon Aug 17 13:29:50 2026]
+localrule stereotaxy:
+    input: sub-P182/ses-preop/afids-cnn/sub-P182_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P182/ses-preop/stereotaxy/sub-P182_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P182/ses-preop/stereotaxy/sub-P182_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P182/ses-preop/ACPCtransforms/sub-P182_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    jobid: 135
+    reason: Missing output files: sub-P182/ses-preop/stereotaxy/sub-P182_ses-preop_acq-ax_run-01_desc-STN_native.fcsv
+    wildcards: subject=P182, session=preop, acq=ax, run=01
+    resources: tmpdir=/localscratch/tmp
+[Mon Aug 17 13:29:50 2026]
+localrule stereotaxy:
+    input: sub-P214/ses-preop/afids-cnn/sub-P214_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P214/ses-preop/stereotaxy/sub-P214_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P214/ses-preop/stereotaxy/sub-P214_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P214/ses-preop/ACPCtransforms/sub-P214_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    jobid: 140
+    reason: Missing output files: sub-P214/ses-preop/stereotaxy/sub-P214_ses-preop_acq-ax_run-01_desc-STN_native.fcsv
+    wildcards: subject=P214, session=preop, acq=ax, run=01
+    resources: tmpdir=/localscratch/tmp
+[Mon Aug 17 13:29:50 2026]
+localrule stereotaxy:
+    input: sub-P292/ses-preop/afids-cnn/sub-P292_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P292/ses-preop/stereotaxy/sub-P292_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P292/ses-preop/stereotaxy/sub-P292_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P292/ses-preop/ACPCtransforms/sub-P292_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    jobid: 146
+    reason: Missing output files: sub-P292/ses-preop/stereotaxy/sub-P292_ses-preop_acq-ax_run-01_desc-STN_native.fcsv
+    wildcards: subject=P292, session=preop, acq=ax, run=01
+    resources: tmpdir=/localscratch/tmp
+[Mon Aug 17 13:29:50 2026]
+localrule stereotaxy:
+    input: sub-P165/ses-preop/afids-cnn/sub-P165_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P165/ses-preop/stereotaxy/sub-P165_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P165/ses-preop/stereotaxy/sub-P165_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P165/ses-preop/ACPCtransforms/sub-P165_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    jobid: 132
+    reason: Missing output files: sub-P165/ses-preop/stereotaxy/sub-P165_ses-preop_acq-ax_run-01_desc-STN_native.fcsv
+    wildcards: subject=P165, session=preop, acq=ax, run=01
+    resources: tmpdir=/localscratch/tmp
+[Mon Aug 17 13:29:50 2026]
+localrule stereotaxy:
+    input: sub-P221/ses-preop/afids-cnn/sub-P221_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P221/ses-preop/stereotaxy/sub-P221_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P221/ses-preop/stereotaxy/sub-P221_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P221/ses-preop/ACPCtransforms/sub-P221_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    jobid: 141
+    reason: Missing output files: sub-P221/ses-preop/stereotaxy/sub-P221_ses-preop_acq-ax_run-01_desc-STN_native.fcsv
+    wildcards: subject=P221, session=preop, acq=ax, run=01
+    resources: tmpdir=/localscratch/tmp
+[Mon Aug 17 13:29:50 2026]
+localrule stereotaxy:
+    input: sub-P374/ses-preop/afids-cnn/sub-P374_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P374/ses-preop/stereotaxy/sub-P374_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P374/ses-preop/stereotaxy/sub-P374_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P374/ses-preop/ACPCtransforms/sub-P374_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    jobid: 157
+    reason: Missing output files: sub-P374/ses-preop/stereotaxy/sub-P374_ses-preop_acq-ax_run-01_desc-STN_native.fcsv
+    wildcards: subject=P374, session=preop, acq=ax, run=01
+    resources: tmpdir=/localscratch/tmp
+[Mon Aug 17 13:29:50 2026]
+localrule stereotaxy:
+    input: sub-P175/ses-preop/afids-cnn/sub-P175_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P175/ses-preop/stereotaxy/sub-P175_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P175/ses-preop/stereotaxy/sub-P175_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P175/ses-preop/ACPCtransforms/sub-P175_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    jobid: 134
+    reason: Missing output files: sub-P175/ses-preop/stereotaxy/sub-P175_ses-preop_acq-ax_run-01_desc-STN_native.fcsv
+    wildcards: subject=P175, session=preop, acq=ax, run=01
+    resources: tmpdir=/localscratch/tmp
+[Mon Aug 17 13:29:50 2026]
+localrule stereotaxy:
+    input: sub-P359/ses-preop/afids-cnn/sub-P359_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P359/ses-preop/stereotaxy/sub-P359_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P359/ses-preop/stereotaxy/sub-P359_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P359/ses-preop/ACPCtransforms/sub-P359_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    jobid: 154
+    reason: Missing output files: sub-P359/ses-preop/stereotaxy/sub-P359_ses-preop_acq-ax_run-01_desc-STN_native.fcsv
+    wildcards: subject=P359, session=preop, acq=ax, run=01
+    resources: tmpdir=/localscratch/tmp
+[Mon Aug 17 13:29:50 2026]
+localrule stereotaxy:
+    input: sub-P293/ses-preop/afids-cnn/sub-P293_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P293/ses-preop/stereotaxy/sub-P293_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P293/ses-preop/stereotaxy/sub-P293_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P293/ses-preop/ACPCtransforms/sub-P293_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    jobid: 147
+    reason: Missing output files: sub-P293/ses-preop/stereotaxy/sub-P293_ses-preop_acq-ax_run-01_desc-STN_native.fcsv
+    wildcards: subject=P293, session=preop, acq=ax, run=01
+    resources: tmpdir=/localscratch/tmp
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+[Mon Aug 17 13:29:50 2026]
+localrule stereotaxy:
+    input: sub-P369/ses-preop/afids-cnn/sub-P369_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P369/ses-preop/stereotaxy/sub-P369_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P369/ses-preop/stereotaxy/sub-P369_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P369/ses-preop/ACPCtransforms/sub-P369_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    jobid: 156
+    reason: Missing output files: sub-P369/ses-preop/stereotaxy/sub-P369_ses-preop_acq-ax_run-01_desc-STN_native.fcsv
+    wildcards: subject=P369, session=preop, acq=ax, run=01
+    resources: tmpdir=/localscratch/tmp
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Select jobs to execute...
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Activating conda environment: ../../../../localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+RuleException:
+CalledProcessError in file "/local/scratch/autoafids/autoafids/workflow/rules/stereotaxy.smk", line 54:
+Command 'source /local/scratch/autoafids/.pixi/envs/default/bin/activate '/localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_'; set -euo pipefail;  python /local/scratch/autoafids/my_model_STN_pred/.snakemake/scripts/tmpl310z_w5.stereotaxy.py' returned non-zero exit status 1.
+[Mon Aug 17 13:29:52 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 142
+    input: sub-P256/ses-preop/afids-cnn/sub-P256_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P256/ses-preop/stereotaxy/sub-P256_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P256/ses-preop/stereotaxy/sub-P256_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P256/ses-preop/ACPCtransforms/sub-P256_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Removing output files of failed job stereotaxy since they might be corrupted:
+work/sub-P256/ses-preop/ACPCtransforms/sub-P256_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+RuleException:
+CalledProcessError in file "/local/scratch/autoafids/autoafids/workflow/rules/stereotaxy.smk", line 54:
+Command 'source /local/scratch/autoafids/.pixi/envs/default/bin/activate '/localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_'; set -euo pipefail;  python /local/scratch/autoafids/my_model_STN_pred/.snakemake/scripts/tmph6d15jx5.stereotaxy.py' returned non-zero exit status 1.
+[Mon Aug 17 13:29:52 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 135
+    input: sub-P182/ses-preop/afids-cnn/sub-P182_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P182/ses-preop/stereotaxy/sub-P182_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P182/ses-preop/stereotaxy/sub-P182_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P182/ses-preop/ACPCtransforms/sub-P182_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Removing output files of failed job stereotaxy since they might be corrupted:
+work/sub-P182/ses-preop/ACPCtransforms/sub-P182_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+RuleException:
+CalledProcessError in file "/local/scratch/autoafids/autoafids/workflow/rules/stereotaxy.smk", line 54:
+Command 'source /local/scratch/autoafids/.pixi/envs/default/bin/activate '/localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_'; set -euo pipefail;  python /local/scratch/autoafids/my_model_STN_pred/.snakemake/scripts/tmpvombo4_4.stereotaxy.py' returned non-zero exit status 1.
+[Mon Aug 17 13:29:52 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 147
+    input: sub-P293/ses-preop/afids-cnn/sub-P293_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P293/ses-preop/stereotaxy/sub-P293_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P293/ses-preop/stereotaxy/sub-P293_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P293/ses-preop/ACPCtransforms/sub-P293_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Removing output files of failed job stereotaxy since they might be corrupted:
+work/sub-P293/ses-preop/ACPCtransforms/sub-P293_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+RuleException:
+CalledProcessError in file "/local/scratch/autoafids/autoafids/workflow/rules/stereotaxy.smk", line 54:
+Command 'source /local/scratch/autoafids/.pixi/envs/default/bin/activate '/localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_'; set -euo pipefail;  python /local/scratch/autoafids/my_model_STN_pred/.snakemake/scripts/tmp_p2_oe20.stereotaxy.py' returned non-zero exit status 1.
+[Mon Aug 17 13:29:53 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 149
+    input: sub-P328/ses-preop/afids-cnn/sub-P328_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P328/ses-preop/stereotaxy/sub-P328_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P328/ses-preop/stereotaxy/sub-P328_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P328/ses-preop/ACPCtransforms/sub-P328_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Removing output files of failed job stereotaxy since they might be corrupted:
+work/sub-P328/ses-preop/ACPCtransforms/sub-P328_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+RuleException:
+CalledProcessError in file "/local/scratch/autoafids/autoafids/workflow/rules/stereotaxy.smk", line 54:
+Command 'source /local/scratch/autoafids/.pixi/envs/default/bin/activate '/localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_'; set -euo pipefail;  python /local/scratch/autoafids/my_model_STN_pred/.snakemake/scripts/tmpkfk7iwde.stereotaxy.py' returned non-zero exit status 1.
+[Mon Aug 17 13:29:53 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 140
+    input: sub-P214/ses-preop/afids-cnn/sub-P214_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P214/ses-preop/stereotaxy/sub-P214_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P214/ses-preop/stereotaxy/sub-P214_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P214/ses-preop/ACPCtransforms/sub-P214_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Removing output files of failed job stereotaxy since they might be corrupted:
+work/sub-P214/ses-preop/ACPCtransforms/sub-P214_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+RuleException:
+CalledProcessError in file "/local/scratch/autoafids/autoafids/workflow/rules/stereotaxy.smk", line 54:
+Command 'source /local/scratch/autoafids/.pixi/envs/default/bin/activate '/localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_'; set -euo pipefail;  python /local/scratch/autoafids/my_model_STN_pred/.snakemake/scripts/tmpe7sevxnx.stereotaxy.py' returned non-zero exit status 1.
+[Mon Aug 17 13:29:53 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 156
+    input: sub-P369/ses-preop/afids-cnn/sub-P369_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P369/ses-preop/stereotaxy/sub-P369_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P369/ses-preop/stereotaxy/sub-P369_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P369/ses-preop/ACPCtransforms/sub-P369_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Removing output files of failed job stereotaxy since they might be corrupted:
+work/sub-P369/ses-preop/ACPCtransforms/sub-P369_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+RuleException:
+CalledProcessError in file "/local/scratch/autoafids/autoafids/workflow/rules/stereotaxy.smk", line 54:
+Command 'source /local/scratch/autoafids/.pixi/envs/default/bin/activate '/localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_'; set -euo pipefail;  python /local/scratch/autoafids/my_model_STN_pred/.snakemake/scripts/tmpi97a_svk.stereotaxy.py' returned non-zero exit status 1.
+[Mon Aug 17 13:29:53 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 141
+    input: sub-P221/ses-preop/afids-cnn/sub-P221_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P221/ses-preop/stereotaxy/sub-P221_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P221/ses-preop/stereotaxy/sub-P221_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P221/ses-preop/ACPCtransforms/sub-P221_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Removing output files of failed job stereotaxy since they might be corrupted:
+work/sub-P221/ses-preop/ACPCtransforms/sub-P221_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+RuleException:
+CalledProcessError in file "/local/scratch/autoafids/autoafids/workflow/rules/stereotaxy.smk", line 54:
+Command 'source /local/scratch/autoafids/.pixi/envs/default/bin/activate '/localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_'; set -euo pipefail;  python /local/scratch/autoafids/my_model_STN_pred/.snakemake/scripts/tmpqvdp_lad.stereotaxy.py' returned non-zero exit status 1.
+[Mon Aug 17 13:29:53 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 134
+    input: sub-P175/ses-preop/afids-cnn/sub-P175_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P175/ses-preop/stereotaxy/sub-P175_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P175/ses-preop/stereotaxy/sub-P175_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P175/ses-preop/ACPCtransforms/sub-P175_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Removing output files of failed job stereotaxy since they might be corrupted:
+work/sub-P175/ses-preop/ACPCtransforms/sub-P175_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+RuleException:
+CalledProcessError in file "/local/scratch/autoafids/autoafids/workflow/rules/stereotaxy.smk", line 54:
+Command 'source /local/scratch/autoafids/.pixi/envs/default/bin/activate '/localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_'; set -euo pipefail;  python /local/scratch/autoafids/my_model_STN_pred/.snakemake/scripts/tmpznrc9sge.stereotaxy.py' returned non-zero exit status 1.
+[Mon Aug 17 13:29:53 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 132
+    input: sub-P165/ses-preop/afids-cnn/sub-P165_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P165/ses-preop/stereotaxy/sub-P165_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P165/ses-preop/stereotaxy/sub-P165_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P165/ses-preop/ACPCtransforms/sub-P165_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Removing output files of failed job stereotaxy since they might be corrupted:
+work/sub-P165/ses-preop/ACPCtransforms/sub-P165_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+RuleException:
+CalledProcessError in file "/local/scratch/autoafids/autoafids/workflow/rules/stereotaxy.smk", line 54:
+Command 'source /local/scratch/autoafids/.pixi/envs/default/bin/activate '/localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_'; set -euo pipefail;  python /local/scratch/autoafids/my_model_STN_pred/.snakemake/scripts/tmp9vxam7c_.stereotaxy.py' returned non-zero exit status 1.
+[Mon Aug 17 13:29:53 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 146
+    input: sub-P292/ses-preop/afids-cnn/sub-P292_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P292/ses-preop/stereotaxy/sub-P292_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P292/ses-preop/stereotaxy/sub-P292_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P292/ses-preop/ACPCtransforms/sub-P292_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Removing output files of failed job stereotaxy since they might be corrupted:
+work/sub-P292/ses-preop/ACPCtransforms/sub-P292_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+RuleException:
+CalledProcessError in file "/local/scratch/autoafids/autoafids/workflow/rules/stereotaxy.smk", line 54:
+Command 'source /local/scratch/autoafids/.pixi/envs/default/bin/activate '/localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_'; set -euo pipefail;  python /local/scratch/autoafids/my_model_STN_pred/.snakemake/scripts/tmp16gapw3i.stereotaxy.py' returned non-zero exit status 1.
+[Mon Aug 17 13:29:53 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 154
+    input: sub-P359/ses-preop/afids-cnn/sub-P359_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P359/ses-preop/stereotaxy/sub-P359_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P359/ses-preop/stereotaxy/sub-P359_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P359/ses-preop/ACPCtransforms/sub-P359_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Removing output files of failed job stereotaxy since they might be corrupted:
+work/sub-P359/ses-preop/ACPCtransforms/sub-P359_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+RuleException:
+CalledProcessError in file "/local/scratch/autoafids/autoafids/workflow/rules/stereotaxy.smk", line 54:
+Command 'source /local/scratch/autoafids/.pixi/envs/default/bin/activate '/localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_'; set -euo pipefail;  python /local/scratch/autoafids/my_model_STN_pred/.snakemake/scripts/tmpz5we406c.stereotaxy.py' returned non-zero exit status 1.
+[Mon Aug 17 13:29:53 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 157
+    input: sub-P374/ses-preop/afids-cnn/sub-P374_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P374/ses-preop/stereotaxy/sub-P374_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P374/ses-preop/stereotaxy/sub-P374_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P374/ses-preop/ACPCtransforms/sub-P374_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Removing output files of failed job stereotaxy since they might be corrupted:
+work/sub-P374/ses-preop/ACPCtransforms/sub-P374_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look below for error messages
+[Mon Aug 17 13:29:53 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 149
+    input: sub-P328/ses-preop/afids-cnn/sub-P328_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P328/ses-preop/stereotaxy/sub-P328_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P328/ses-preop/stereotaxy/sub-P328_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P328/ses-preop/ACPCtransforms/sub-P328_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+[Mon Aug 17 13:29:53 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 142
+    input: sub-P256/ses-preop/afids-cnn/sub-P256_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P256/ses-preop/stereotaxy/sub-P256_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P256/ses-preop/stereotaxy/sub-P256_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P256/ses-preop/ACPCtransforms/sub-P256_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+[Mon Aug 17 13:29:53 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 135
+    input: sub-P182/ses-preop/afids-cnn/sub-P182_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P182/ses-preop/stereotaxy/sub-P182_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P182/ses-preop/stereotaxy/sub-P182_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P182/ses-preop/ACPCtransforms/sub-P182_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+[Mon Aug 17 13:29:53 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 146
+    input: sub-P292/ses-preop/afids-cnn/sub-P292_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P292/ses-preop/stereotaxy/sub-P292_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P292/ses-preop/stereotaxy/sub-P292_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P292/ses-preop/ACPCtransforms/sub-P292_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+[Mon Aug 17 13:29:53 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 132
+    input: sub-P165/ses-preop/afids-cnn/sub-P165_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P165/ses-preop/stereotaxy/sub-P165_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P165/ses-preop/stereotaxy/sub-P165_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P165/ses-preop/ACPCtransforms/sub-P165_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+[Mon Aug 17 13:29:53 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 156
+    input: sub-P369/ses-preop/afids-cnn/sub-P369_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P369/ses-preop/stereotaxy/sub-P369_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P369/ses-preop/stereotaxy/sub-P369_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P369/ses-preop/ACPCtransforms/sub-P369_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+[Mon Aug 17 13:29:53 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 141
+    input: sub-P221/ses-preop/afids-cnn/sub-P221_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P221/ses-preop/stereotaxy/sub-P221_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P221/ses-preop/stereotaxy/sub-P221_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P221/ses-preop/ACPCtransforms/sub-P221_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+[Mon Aug 17 13:29:53 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 157
+    input: sub-P374/ses-preop/afids-cnn/sub-P374_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P374/ses-preop/stereotaxy/sub-P374_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P374/ses-preop/stereotaxy/sub-P374_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P374/ses-preop/ACPCtransforms/sub-P374_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+[Mon Aug 17 13:29:53 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 134
+    input: sub-P175/ses-preop/afids-cnn/sub-P175_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P175/ses-preop/stereotaxy/sub-P175_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P175/ses-preop/stereotaxy/sub-P175_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P175/ses-preop/ACPCtransforms/sub-P175_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+[Mon Aug 17 13:29:53 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 154
+    input: sub-P359/ses-preop/afids-cnn/sub-P359_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P359/ses-preop/stereotaxy/sub-P359_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P359/ses-preop/stereotaxy/sub-P359_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P359/ses-preop/ACPCtransforms/sub-P359_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+[Mon Aug 17 13:29:53 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 147
+    input: sub-P293/ses-preop/afids-cnn/sub-P293_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P293/ses-preop/stereotaxy/sub-P293_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P293/ses-preop/stereotaxy/sub-P293_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P293/ses-preop/ACPCtransforms/sub-P293_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+[Mon Aug 17 13:29:53 2026]
+Error in rule stereotaxy:
+    message: None
+    jobid: 140
+    input: sub-P214/ses-preop/afids-cnn/sub-P214_ses-preop_acq-ax_run-01_desc-afidscnn-nnlm_afids.fcsv
+    output: sub-P214/ses-preop/stereotaxy/sub-P214_ses-preop_acq-ax_run-01_desc-STN_native.fcsv, sub-P214/ses-preop/stereotaxy/sub-P214_ses-preop_acq-ax_run-01_desc-STN_mcp.fcsv, work/sub-P214/ses-preop/ACPCtransforms/sub-P214_ses-preop_acq-ax_run-01_desc-transform_ACPC.txt
+    conda-env: /localscratch/.cache/autoafids/conda/7e9941e9acc1503fed10fd844ea3118b_
+Complete log(s): /local/scratch/autoafids/my_model_STN_pred/.snakemake/log/2026-08-17T132947.485919.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.
